@@ -1,0 +1,233 @@
+.navbaritems
+{
+    height:55px;
+}
+.imgset
+{
+    margin: -6px 0px 0px 8px;
+    
+}
+.navbaritemss
+{
+    height:55px;
+    background-color:#B2BABB;
+}
+.navy 
+{
+    background-color:#D5DBDB  ;
+}
+.backy
+{
+    background-color: linear-gradient(blue,white,violet);
+}
+.copyright
+{
+    background-color: black;
+    color: white;
+    height: 5px;
+    padding: 25px;
+    margin :auto;
+    
+}
+.sss
+{
+    
+    padding: 10px 0 0 0;
+}
+.navsettings
+{
+    color: white;
+}
+.colorss
+{
+    color: white;
+}
+
+
+.navbaritems
+{
+	height:55px;
+	padding: 0px 30px 0px 0px ;
+}
+body{
+	padding-bottom:0px;
+}
+#nav:hover{
+	background-color: linen;
+	border-radius: 25px;
+}
+.part3
+{
+	background-color:linen;	
+}
+.fontss
+{
+	color: #f8ac30;
+}
+.imgbr
+{
+	     margin: 1px 0px 0px 0px;
+
+}
+.tblbor
+{
+	border-color:white;
+}
+.tblbor2
+{
+	border-color:#307CF8;
+	border: 0;
+}
+.sizes
+{
+	size:150px;
+}
+.margg
+{
+	margin: 7px 0 0 0;
+}
+.foots
+{
+	background-color: lightgrey;
+}
+/*.container .content {
+    /*position: absolute;*/
+   /* bottom: 0;
+    background: rgba(0, 0, 0, 0.5);  Black background with transparency 
+    color: #f1f1f1;*/
+    /*width: 100%;
+    padding: 20px;*/
+/*}
+*/.logo
+{
+	padding: 8px 0px 0px 0px;
+	margin-top: -10px;
+}
+.tx{
+	font-size:40px;
+	animation: alternate-reverse;
+	alignment-baseline: left;
+	flood-color: linen;
+    font-weight: normal !important;
+    font-family:  Comic Sans MS;/*'Oleo Script', Helvetica, Arial, Lucida, sans-serif !important;*/
+}
+.tx2{
+	
+	font-family: "Herr Von Muellerhoff";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding: 0px 300px 300px 0px ;
+	
+}
+.headline__secondary {
+    font-family: Herr Von Muellerhoff;
+    font-weight: normal;
+    font-size: 50px;
+}
+.zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Example*/
+/*<div class="container">
+  <img src="img_snow_wide.jpg" alt="Snow" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>*/
+@font-face {font-family:"MakeMagicHappen";
+src:url("Make_Magic_Happen_-_OTF.eot?") format("eot"),
+url("Make_Magic_Happen_-_OTF.woff") format("woff"),
+url("Make_Magic_Happen_-_OTF.ttf") format("truetype"),
+url("Make_Magic_Happen_-_OTF.svg#MakeMagicHappen") format("svg");
+font-weight:normal;
+font-style:normal;}
+.backwp{
+	
+	background-image: url("back3.jpg");
+}
+ .jumbotron{
+     width:50%;
+     height:50%;
+
+     }
+#xyz{
+	 font-family: "Times New Roman";
+}
+.small{
+	padding: 50px 0px 0px 0px ;
+}
+.rotate {
+    width: 150px;
+    height: 80px;
+    /*background-color: yellow;*/
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
+.rotate1 {
+    width: 150px;
+    height: 80px;
+    padding-top: 60px;
+    /*background-color: yellow;*/
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
+.vertical1{
+	padding: 100px 0px 0px 0px ;
+}
+.vertical2{
+	padding: 000px 100px 0px -100px ;
+}
+.backwp2{
+	
+	background-image: url("back3.jpg");
+}
