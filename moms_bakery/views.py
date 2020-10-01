@@ -11,7 +11,11 @@ ids=0
 def index(request):
  	return render(request,'moms_bakery/home.html',{}) 
 
- 
+def login(request):
+ 	return render(request,'moms_bakery/login.html',{})
+ 	
+def registration(request):
+	return render(request,'moms_bakery/registration.html',{})
  
 def dash(request):
 	global ids
@@ -23,7 +27,13 @@ def dash(request):
 				'email':i.email,'usrname':i.usrname,'number':i.contact,'add':i.address,
 				'status':i.status,'datab':i.profile_pic})
 
+def logout(request):
+	return render(request,'moms_bakery/logout.html',{}) 
 
+def edit(request):
+	print(ids)
+	# return render(request,'moms_bakery/form.html',{}) 
+	return render(request,'moms_bakery/profile_edit.html',{})
 
 
 def order_bike(request):
